@@ -1,0 +1,83 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  
+  .content-wrapper {
+    width: 40vw;
+    background-color: rgb(12, 59, 46);
+    padding: 8%;
+    color: #ffffff;
+    height: 100vh;
+  }
+  
+  .heading,
+  .address,
+  .contact,
+  .button{
+    height: 25%;
+  }
+  
+  .heading h1{
+    font-family: "Poppins";
+    font-size: 60px;
+  }
+  
+  .address{
+    padding-top: 60px;
+  }
+  
+  .contact{
+    padding-top: 50px;
+  }
+  
+  p{
+    font-family: "Roboto";
+    font-size: 25px;
+    letter-spacing: 1.2px;
+    line-height: 1.2;
+    font-weight: 500;
+  }
+  
+  .image-wrapper{
+    display: flex;
+    width: 60vw;
+    height: 100vh;
+  }
+  
+  .image-wrapper img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .button {
+    padding-top: 60px;
+  }
+  
+  .button a {
+    display: inline-block;
+    padding: 15px 50px;
+    background: orange;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto";
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 600;
+    transition: all 0.5s ease;
+  }
+  
+  .button a:hover {
+    background: black;
+    color: orange;
+  }
